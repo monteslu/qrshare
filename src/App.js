@@ -38,6 +38,10 @@ const styles = {
     maxHeight: '60vh',
     maxWidth: '90vw',
   },
+  button: {
+    margin: '10px',
+    fontSize: '2rem'
+  }
 }
 class QRShare extends React.Component {
   constructor(props) {
@@ -223,8 +227,8 @@ class QRShare extends React.Component {
         <header className="App-header"> 
          { !this.state.mode ? (
            <div>
-            <button onClick={this.handleShare}>Share</button>
-            <button onClick={this.handleReceive}>Receive</button>
+            <button onClick={this.handleShare} style={styles.button}>Share</button>
+            <button onClick={this.handleReceive} style={styles.button}>Receive</button>
            </div>
          ) : ''}
          { this.state.mode === 'share' ? (
