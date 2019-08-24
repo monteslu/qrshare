@@ -1,3 +1,11 @@
+# QR Share
+
+Share files with your webcam and QR codes.
+
+Live demo here: [https://qrshare.netlify.com](https://qrshare.netlify.com)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
