@@ -2,7 +2,7 @@
 
 Share files with your webcam and QR codes.
 
-Live demo here: [https://qrshare.netlify.com](https://qrshare.netlify.com)
+Live demo here: [https://qrshare.netlify.app](https://qrshare.netlify.app)
 
 
 
